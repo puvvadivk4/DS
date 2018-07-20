@@ -72,5 +72,58 @@ remain2[1]
 
 
 ##############DAY3
+remainOwn<-c('z'=99,'f'=22)
+remainOwn['f']
+remaino<-c("1"=11,"2"=12,"3"=11)
+remaino["2"]
+remaino[12]
 
 
+mii<-"aaaa"
+length(mii)
+
+##length must equal
+arr1<-c(10,11,22)
+arr2<-c(2,22,33)
+arr1+arr2
+arr1<arr2
+
+
+##comparater
+
+t<-c(1,2)
+t1<-c(1,2,3,4)
+t<=t1
+
+#########
+ranks<-c(2,1,3,4L)
+class(ranks)
+ranks[6]
+ranks[5]=5
+ranks
+ranks[5]=55
+ranks[7]=77
+
+x<- -1:5
+x
+sum(x)
+y<-0:5
+##total numberof records that satisfy the condition
+
+sum(y)
+sum(y>1)
+sum(y[y>1])
+sum(y[y<3])
+
+##Sorting
+sort(y)
+sort(y,decreasing = T)
+
+##
+y[c(2,4,6)]
+y[c(2:6)]
+
+##delete
+y
+y[-1]
+y[-3:-1]
